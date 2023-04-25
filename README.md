@@ -15,13 +15,11 @@ number_dict = {
     "9": "nine"
 }
 
-# Вітаємо користувача
+
 print("Привіт! Я перетворюю номер у словесне представлення.")
 
-# Запитуємо номер від користувача
 number = input("Будь ласка, введіть номер: ")
 
-# Перевіряємо, чи введене значення складається тільки з цифр
 if not number.isdigit():
     print("Ви ввели неправильний номер.")
 else:
@@ -30,12 +28,12 @@ else:
     for digit in number:
         word_number += number_dict[digit] + " "
 
-    # Виводимо результат
-    print("Ваш номер у словесному представленні: ", word_number)
+
+   print("Ваш номер у словесному представленні: ", word_number)
     
-    а це її скріншот 
-    
-    ![image](https://user-images.githubusercontent.com/127845127/234246860-b492f72b-9d87-4406-be94-4c28c857ae89.png)
+   а це її скріншот 
+   
+   ![image](https://user-images.githubusercontent.com/127845127/234246860-b492f72b-9d87-4406-be94-4c28c857ae89.png)
     
 
 По кроково проходженню коду:

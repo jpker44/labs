@@ -5,8 +5,11 @@
 import os
 
 while True:
+
     # Запитуємо шлях до файлу від користувача
+    
     file_path = input("Введіть шлях до файлу: ")
+    
     if not os.path.isfile(file_path):
         print("Файл не знайдено!")
         continue
